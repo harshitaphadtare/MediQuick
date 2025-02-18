@@ -25,14 +25,16 @@ const Header = () => {
               schedule your appointment hassle-free.
             </p>
           </div>
-          <button className="chronicle-button">
-            <span>
-              <em>Book Appointment</em>
-            </span>
-            <span>
-              <em>Book Appointment</em>
-            </span>
-          </button>
+          <a href="#speciality">
+            <button className="chronicle-button">
+              <span>
+                <em>Book Appointment</em>
+              </span>
+              <span>
+                <em>Book Appointment</em>
+              </span>
+            </button>
+          </a>
         </div>
 
         {/* Right Content - Hidden on Mobile, Visible on Tablet & Desktop */}
