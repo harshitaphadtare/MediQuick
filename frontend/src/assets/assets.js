@@ -32,6 +32,11 @@ import doc14 from './doc14.png'
 import doc15 from './doc15.png'
 import trust from './trust.png'
 import choose from './choose.png'
+import docP from './docP.jpg'
+import tick from './tick.png'
+import appointment from './appointment.png'
+import doctor_img from './doctor.png'
+import solution from './solution.png'
 import Dermatologist from './Dermatologist.svg'
 import Gastroenterologist from './Gastroenterologist.svg'
 import General_physician from './General_physician.svg'
@@ -60,6 +65,11 @@ export const assets = {
     razorpay_logo,
     trust,
     choose,
+    docP,
+    tick,
+    appointment,
+    doctor_img,
+    solution,
 }
 
 export const specialityData = [

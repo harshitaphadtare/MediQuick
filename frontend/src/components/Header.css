@@ -1,6 +1,5 @@
 /* General Styles */
 .header-container {
-  background-color: #f0f4ff;
   padding: 40px 16px;
   display: flex;
   justify-content: center;
@@ -92,7 +91,7 @@
   padding: 15px 30px !important;
   cursor: pointer;
   border: none;
-  background: #1a73e8;
+  background: #577CFF;
   transition: background 0.4s linear;
   will-change: background;
 }
@@ -116,7 +115,7 @@
   border-bottom-left-radius: 45%;
   z-index: 0; 
   top: -15px;
-  left: -12px;
+  left: -1px;
   transform: rotate(4deg);
 }
 
