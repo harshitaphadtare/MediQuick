@@ -52,27 +52,27 @@ const Footer = () => {
           <ul className="mt-2 space-y-2 text-sm">
             <li>
               <a href="#" className="hover:text-black">
-                Dental Surgery
+                General physician
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-black">
-                Eye Operation
+                Gynecologist
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-black">
-                Orthopedics
+                Dermatologist
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-black">
-                Neurology
+                Pediatricians
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-black">
-                General Surgery
+                Neurologist
               </a>
             </li>
           </ul>
@@ -82,9 +82,18 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-semibold text-white">Information</h2>
           <ul className="mt-2 space-y-2 text-sm">
-            <li>📞 +123 123 1232</li>
-            <li>📧 harshita.codewiz@gmail.com</li>
-            <li>📍 9423-Mumbai, India</li>
+            <li className="flex">
+              <img className="w-5 mr-2" src={assets.phone} alt="" /> +123 123
+              1232
+            </li>
+            <li className="flex">
+              <img className="w-5 mr-2" src={assets.email} alt="" />{" "}
+              harshita.codewiz@gmail.com
+            </li>
+            <li className="flex">
+              <img className="w-5 mr-2" src={assets.location} alt="" />{" "}
+              9423-Mumbai, India
+            </li>
           </ul>
         </div>
       </div>

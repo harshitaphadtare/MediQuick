@@ -42,8 +42,11 @@ const TopDoc = () => {
         ))}
       </div>
       <button
-        onClick={() => navigate("/doctors")}
-        className="bg-blue-50 text-gray-600 px-8 py-3 rounded-full mt-10"
+        onClick={() => {
+          navigate("/doctors");
+          window.scrollTo(0, 0);
+        }}
+        className="bg-blue-50 text-gray-600 px-8 py-3 rounded-full mt-10 cursor-pointer"
       >
         more
       </button>

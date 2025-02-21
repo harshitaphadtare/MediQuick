@@ -37,6 +37,9 @@ import tick from './tick.png'
 import appointment from './appointment.png'
 import doctor_img from './doctor.png'
 import solution from './solution.png'
+import email from './email.png'
+import location from './location.png'
+import phone from './phone.png'
 import Dermatologist from './Dermatologist.svg'
 import Gastroenterologist from './Gastroenterologist.svg'
 import General_physician from './General_physician.svg'
@@ -70,6 +73,9 @@ export const assets = {
     appointment,
     doctor_img,
     solution,
+    email,
+    phone,
+    location,
 }
 
 export const specialityData = [
