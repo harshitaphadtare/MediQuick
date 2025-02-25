@@ -8,7 +8,7 @@ const MyProfile = () => {
     email: "richarjamesswap@gmail.com",
     phone: "+1  123 456 7890",
     address: {
-      line1: "57th Cross, Richmond ",
+      line1: "57th Cross, Richmond",
       line2: "Circle, Church Road, London",
     },
     gender: "Male",
