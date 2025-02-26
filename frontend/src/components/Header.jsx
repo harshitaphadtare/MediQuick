@@ -14,7 +14,7 @@ const Header = () => {
           </div>
 
           <h1 className="heading">Professional Care For Your Family</h1>
-          <div className="subtext-container">
+          <div className="subtext-container ">
             <img
               src={assets.group_profiles}
               alt="Group of Patients"
